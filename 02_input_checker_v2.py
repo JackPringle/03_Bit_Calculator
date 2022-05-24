@@ -3,8 +3,8 @@ def user_choice():
 
     # Lists of valid responses 
     text_ok = ["text", "t", "txt"]
-    integer_ok = ["integer", "int," "#", "number"]
-    image_ok = ["image", "img", "pix", "picture", "pic"]
+    integer_ok = ["integer", "int", "#", "number"]
+    image_ok = ["image", "img", "pix", "picture", "pic", "p"]
 
     valid = False 
     while not valid:
